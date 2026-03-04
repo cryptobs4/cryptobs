@@ -1,12 +1,12 @@
 const CACHE = "cryptobs-pwa-v1";
 
 const ASSETS = [
-  "/cryptobs/",
-  "/cryptobs/index.html",
+  "https://cryptobs4.github.io/cryptobs/",
+  "https://cryptobs4.github.io/cryptobs/index.html",
 
-  "/cryptobs/manifest.json",
-  "/cryptobs/icon-192.png",
-  "/cryptobs/icon-512.png"
+  "https://cryptobs4.github.io/cryptobs/manifest.json",
+  "https://cryptobs4.github.io/cryptobs/icon-192.png",
+  "https://cryptobs4.github.io/cryptobs/icon-512.png"
 ];
 
 // Install: cache core assets
