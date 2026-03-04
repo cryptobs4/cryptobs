@@ -1,7 +1,7 @@
 {
   "name": "cryptobs",
   "short_name": "Cryptobs",
-  "start_url": "https://cryptobs4.github.io/cryptobs/",
+  "start_url": "/cryptobs/",
   "scope": "/cryptobs/",
   "display": "standalone",
   "background_color": "#ffffff",
