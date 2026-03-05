@@ -1,11 +1,11 @@
 const CACHE = "cryptobs-pwa-v5";
 
 const ASSETS = [
-  "https://cryptobs4.github.io/cryptobs/",
-  "https://cryptobs4.github.io/cryptobs/index.html",
-  "https://cryptobs4.github.io/cryptobs/manifest.json",
-  "https://cryptobs4.github.io/cryptobs/icon-192.png",
-  "https://cryptobs4.github.io/cryptobs/icon-512.png"
+  "/cryptobs/",
+  "/cryptobs/index.html",
+  "/cryptobs/manifest.json",
+  "/cryptobs/icon-192.png",
+  "/cryptobs/icon-512.png"
 ];
 
 self.addEventListener("install", (event) => {
