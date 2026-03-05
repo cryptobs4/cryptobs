@@ -4,7 +4,7 @@ const ASSETS = [
   "https://cryptobs4.github.io/cryptobs/",
   "https://cryptobs4.github.io/cryptobs/index.html",
 
-  "/cryptobs/manifest.json",
+  "https://cryptobs4.github.io/cryptobs/manifest.json",
   "https://cryptobs4.github.io/cryptobs/icon-192.png",
   "https://cryptobs4.github.io/cryptobs/icon-512.png"
 ];
