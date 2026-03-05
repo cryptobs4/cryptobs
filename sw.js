@@ -5,8 +5,8 @@ const ASSETS = [
   "https://cryptobs4.github.io/cryptobs/index.html",
 
   "https://cryptobs4.github.io/cryptobs/manifest.json",
-  "https://cryptobs4.github.io/cryptobs/icon-192.png",
-  "https://cryptobs4.github.io/cryptobs/icon-512.png"
+  "https://cryptobs/icon-192.png",
+  "https://cryptobs/icon-512.png"
 ];
 
 // Install: cache core assets
