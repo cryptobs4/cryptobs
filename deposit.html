@@ -30,10 +30,47 @@ Welcome to the invest system
 
 <table align="center" >
 <td>
-<p align="center"> <p>Complete Deposit</p>
-  <p>first deposit the amount you want to invest in one of the address below, and copy the transaction information (TxID)</p>
-    <p> Then paste transaction information (TxID) in the(TxID) part of the form and enter the amount and secret code of your account and submit it.</p>
-    
+<p align="center"> Complete Deposit</p>
+  <p>First, deposit the amount you want to invest in one of the addresses below, and copy the transaction information (TxID)</p>
+  <p> Then paste transaction information (TxID) in the(TxID) part of the form and enter the amount and secret code of your <br />
+    account and submit it.</p>
+<label>Select the currency you want to recharge</label>
+<input type="text" name="currencyType" id="currency" list="network" onchange="showWallet()" />
+
+<datalist id="network">
+  <option value="trc20">
+  <option value="erc20">
+</datalist>
+
+<!-- TRC20 section -->
+<div id="trc20Box" style="display:none; text-align:center;">
+  <img src="trc20.jpg" width="200">
+  <p>TRC20: TMKVyvtS1TJbsUJXMfwVifGbmbGbSEG9yd</p>
+</div>
+
+<!-- ERC20 section -->
+<div id="erc20Box" style="display:none; text-align:center;">
+  <img src="erc20.jpg" width="200">
+  <p>ERC20: 0xDFCE048D9A26D25Ef0df260B0038F78F9210f9b7</p>
+</div>
+
+<script>
+function showWallet() {
+  var currency = document.getElementById("currency").value;
+
+  document.getElementById("trc20Box").style.display = "none";
+  document.getElementById("erc20Box").style.display = "none";
+
+  if (currency === "trc20") {
+    document.getElementById("trc20Box").style.display = "block";
+  }
+
+  if (currency === "erc20") {
+    document.getElementById("erc20Box").style.display = "block";
+  }
+}
+</script>
+  
 <image src="trc20.jpg" > <p align="center">TRC20: TMKVyvtS1TJbsUJXMfwVifGbmbGbSEG9yd </p> </image>
   <br />
   <br />
@@ -42,7 +79,7 @@ Welcome to the invest system
   <image src="erc20.jpg"> <p align="center">ERC20: 0xDFCE048D9A26D25Ef0df260B0038F78F9210f9b7</p> </image> 
 
 
-</p>
+
   <br/>
   <br />
   
