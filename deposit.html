@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cryptobs ballance</title>
+<title>Deposit</title>
 </head>
 <body>
 <!-- ----------------------------------------------------------- -->
@@ -30,18 +30,24 @@ Welcome to the invest system
 
 <table align="center" >
 <td>
-<p align="center"> Complete the Form </p>
-<form action="https://formspree.io/f/xnjgjadd" method="post"  autocomplete="on">
+<p align="center"> <p>Complete Deposit</p>
+  <p>first deposit the amount you want to invest in one of the address below, and copy the transaction information (TxID)</p>
+    <p> Then complete the form bellow and paste transaction information (TxID) in the form and submit it.</p>
+    <p>TRC20: TMKVyvtS1TJbsUJXMfwVifGbmbGbSEG9yd </p>
+<image src="trc20.jpg" > trc20 </image>
 
-<label for="SecretCode"> what do you want? </label>
+    <p>ERC20: 0xDFCE048D9A26D25Ef0df260B0038F78F9210f9b7</p>
+  <image src="erc20.jpg"> erc20 </image> 
+
+
+</p>
+  
+<form action="https://formspree.io/f/xnjgjadd" method="post"  autocomplete="on">
+<label for="TransactionID"> TxID: </label>
+<input type="text" name="TransactionID" id="TxId" placeholder="yoursecretcode" required /> 
 <br />
-<label>check my ballance: </label>
-<input type="radio" name="ballance" id="check ballance"  value="check" required />
-  <br />
-<label> Withdraw:</label>
-<input type="radio" name="ballance" id="gender" value="withdraw" required />
-  <br />
-<label> Enter Amount of money you want to withdraw: </label>
+
+<label> Enter Amount of money you want to invest: </label>
 <input type="text" name="amount" id="money amount" placeholder="amount of money" />
 <br/>
 <br>
