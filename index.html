@@ -30,6 +30,388 @@
 
 <body style="margin:0; font-family:system-ui; background:#fff; color:#111;">
   <div style="max-width:720px; margin:40px auto; padding:0 16px; text-align:center;">
+<div class="app">
+
+  <!-- SIDEBAR 
+
+  <aside class="sidebar">
+
+   
+    <div class="nav-icon active">📊</div>
+
+    <div class="nav-icon" onclick="location.href='about.html'">ℹ️</div>
+
+    <!-- <div class="nav-icon">💼</div> -->
+    <!-- <div class="nav-icon">⚙️</div> -->
+  <!-- </aside> -->
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <!-- HEADER -->
+ 
+
+      
+  
+  <div class="header">
+  <table style="text-align:bottom;">
+  <tr>
+  <td>
+  <h1> TRUSTINVEST |</h1>
+  </td>
+ 
+ 
+  <td >
+  
+ <p style="font-size:16px;text-align:left;">
+
+    No Emotion, Disciplined    Execution.
+<br>
+
+    A Systematic Investment Framework.
+    </p>
+    </td> 
+    </tr>
+    
+    
+    </table>
+    <div> 
+    <table style="margin-right:0px; border:0px; ">
+    <tr>
+    <td style="width:45px; border:0px;">
+    <a href="about.html" style="color:#FFF; font-size:14px;"> About </a>
+    </td>
+    <td style="width:60px; border:0px;">
+    <a href="services.html" style="color:#FFF; font-size:14px;"> Services </a>
+    </td>
+    <td style="width:55px; border:0px;">
+    <a href="contact.html" style="color:#FFF; font-size:14px;"> Contact </a> 
+    </td>
+    <td style="width:30px; border:0px;">
+    <a href="truth.html" style="color:#FFF; font-size:14px;"> Truth </a> 
+    </td>
+    </tr>
+    </table>
+    </div>
+    </div>
+  
+
+
+    <!-- KPIs -->
+    <div class="card">
+    <div class="stats">
+      <div class="stat">
+      
+          
+        <span>
+            Account history
+            <span class="info">i
+              <div class="tooltip">
+                <strong>3+ Years Account history </strong><br>
+                All trades are publicly verified
+                and transparently tracked
+                via Myfxbook. Myfxbook is an impartially website that just show the history exactly as it is.
+              </div>
+            </span>
+          </span>
+          
+        <h2>
+
+          <a href="https://www.myfxbook.com/members/saeid1370/saeid-soltanara/10229398"
+
+             style="color:#ff7ad9;text-decoration:none"><i> <u style="color:red;"> Myfxbook </u> </i></a>
+
+        </h2>
+      </div>
+      
+            <div class="stat">
+        <span>
+            Backtest
+            <span class="info">i
+              <div class="tooltip">
+                <strong>Backtest Period</strong><br>
+                Historical testing of the strategy
+                across multiple market conditions
+                over a 4-year period.
+              </div>
+            </span>
+          </span>
+          
+        <h2>4 Years +</h2>
+      </div>
+      
+      
+      <div class="stat">
+        <span>
+            Profit factor
+            <span class="info">i 
+              <div class="tooltip">
+                <strong>Profit Factor</strong><br>
+                Ratio of gross profit to gross loss.<br>
+                A value above <strong>1.5</strong> indicates a profitable strategy.
+                Higher values mean better risk-adjusted performance.
+              </div>
+            </span>
+          </span>
+          
+        
+        <h2>2.47</h2>
+      </div>
+      <div class="stat">
+        <span>
+            Win rate
+            <span class="info">i
+              <div class="tooltip">
+                <strong>Win Rate</strong><br>
+                Percentage of trades closed in profit.<br>
+                High win rate combined with good risk management
+                improves strategy stability.
+              </div>
+            </span>
+          </span>
+          
+        <h2>77.02%</h2>
+      </div>
+      <div class="stat">
+        <span>
+            Recovery factor
+            <span class="info">i
+              <div class="tooltip">
+                <strong>Recovery Factor</strong><br>
+                Net profit divided by maximum drawdown.<br>
+                Measures how efficiently the strategy recovers
+                from losses. Higher is better.
+              </div>
+            </span>
+          </span>
+          
+        <h2>7.81</h2>
+      </div>
+      
+            <div class="stat">
+        <span>
+            Sharpe ratio
+            <span class="info">i
+              <div class="tooltip">
+                <strong>Sharpe Ratio</strong><br>
+                Measures return relative to risk (volatility).<br>
+                A value above <strong>2</strong> is considered excellent.
+              </div>
+            </span>
+          </span>
+          
+        <h2>10.23</h2>
+      </div>
+      <div class="stat">
+        <span>
+            Return
+            <span class="info">i
+              <div class="tooltip">
+                <strong>Total Return</strong><br>
+                Growth multiple of the initial capital over
+                the entire backtest period.
+              </div>
+            </span>
+          </span>
+          
+        <h2>52.28×</h2>
+      </div>
+    </div>
+   
+
+    <!-- MAIN CARD -->
+    
+        <!-- FOOTER 
+
+    <div class="card">
+
+    <div class="footer">
+
+    
+
+
+
+    </div>
+
+    </div>
+
+    -->
+ 
+      
+    <div class="card2">
+    <!-- ______________-->
+    
+    
+    
+    <!--    _________-->
+      <div class="card-header">
+        <div>
+          <h4>Total Account Growth <u style="color:#37ff9b;"> $ 532,895 </u> <br> Initial Balance <u style="color:#37ff9b;"> $ 10,000 </u> </h4>
+         <div>
+          
+          
+        </div>
+          
+        </div>
+       <div class="value"></div>
+       
+    
+      </div>
+
+      <div class="chart">
+        <canvas id="chart"></canvas>
+      </div>
+    </div>
+
+
+
+   <!--   <div class="stat">
+        <span>
+            Monthly Fee
+            <span class="info">i
+              <div class="tooltip">
+                <strong>Performance Fee</strong><br>
+                <strong>15%</strong> of that month's net profit only.<br><br>
+                If no profit is made in a month,
+                <strong>no fee is charged</strong>.
+              </div>
+            </span>
+          </span>
+          
+        <h2>15%</h2>
+      </div> -->
+<div class="card3">
+ <p>
+ TrustInvest is a systematic fully mechanical, emotion-free and human error-free trading system built on proven quantitative rules-designed for 
+ disciplined traders who value consistency, risk control, and long-term performance over hype.
+ 
+ </p>
+
+</div>
+ 
+    </div>
+    
+    <div > Scroll to discover. </div>
+	</div>
+    </div>
+
+  </main>
+ 
+</div>
+
+
+ 
+
+<script>
+const points = [
+  [10000, "2021-10"],
+  [11220, "2022-01"],
+  [21619, "2022-04"],
+  [33887, "2022-07"],
+  [42039, "2022-09"],
+  [81268, "2023-01"],
+
+  [115114, "2023-05"],
+  [129895, "2023-09"],
+
+  [150570, "2024-01"],
+  [118684, "2024-05"],
+
+  [149324, "2024-10"],
+  
+  [294146, "2025-04"],
+  [397307, "2025-10"],
+
+  [532895, "2025-12"]
+
+];
+
+const data = points.map(p => p[0]);
+const labels = points.map(p => p[1]);
+
+new Chart(document.getElementById("chart"),{
+
+  type:"line",
+
+  data:{
+
+    labels: labels,
+datasets:[{
+  data: data,
+  borderColor:"#ff7ad9",
+  borderWidth:3,
+  tension:.45,
+  pointRadius:0,
+  fill:true,
+  backgroundColor:"rgba(255,122,217,.15)",
+
+  animation: {
+    x: {
+      type: 'number',
+      easing: 'linear',
+      duration: 0.0001,
+      from: NaN,
+      delay(ctx) {
+        return ctx.dataIndex * (700/ data.length);
+      }
+    },
+    y: {
+      easing: 'linear',
+      duration: 0.0001,
+      from: ctx => ctx.chart.scales.y.getPixelForValue(0),
+      delay(ctx) {
+        return ctx.dataIndex * (700 / data.length);
+      }
+    }
+  }
+}]
+
+  },
+  options:{
+    responsive:true,
+    maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{
+      x:{
+        grid:{display:false},
+        ticks:{color:"#aaa"}
+      },
+      y:{
+        grid:{color:"rgba(255,255,255,.08)"},
+        ticks:{color:"#aaa"}
+      }
+    }
+  }
+});
+</script>
+
+
+
+
+<script>
+let pageChanged = false;
+
+window.addEventListener("scroll", () => {
+  if (pageChanged) return;
+
+
+  const scrollTop = window.scrollY;
+
+  const windowHeight = window.innerHeight;
+
+  const docHeight = document.documentElement.scrollHeight;
+
+
+  // Detect bottom of page (with small tolerance)
+
+  if (scrollTop + windowHeight >= docHeight - 5) {
+    pageChanged = true;
+    window.location.href = "about.html";
+
+  }
+});
+</script>
+
 
   </div>
 
